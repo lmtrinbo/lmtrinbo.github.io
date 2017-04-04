@@ -21,6 +21,22 @@ html, body {
   transform: translateY(-50%);
 }
 
+
+.backgroundImage {
+  height: 90%;
+  padding-top:10%;
+  background: url("images/indexPhoto.jpg");
+  background-position: center;
+  background-size: cover;
+ 
+}
+.backgroundImage img {
+  max-height: 70%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
   .menu ul {
       list-style-type: none;
       margin: 0;
@@ -37,7 +53,7 @@ html, body {
       display: inline-block;
       color: white;
       text-align: center;
-      padding: 14px 26px;
+      padding: 14px 17%;
       text-decoration: none;
   }
 
