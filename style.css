@@ -1,5 +1,6 @@
 html, body {
   height: 100%;
+  width: 100%;
 }
 
 .img-container {
@@ -16,3 +17,82 @@ html, body {
   top: 50%;
   transform: translateY(-50%);
 }
+
+  .menu ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+  }
+
+  .menu li {
+      float: left;
+  }
+
+  .menu li a {
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 14px 26px;
+      text-decoration: none;
+  }
+
+  .menu li a:hover {
+      background-color: #111;
+  }
+
+  .menu {
+      position:absolute;
+      margin-top:3%;
+      width:100%;
+  }
+
+
+  .footer ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+  }
+
+  .footer li {
+      float: left;
+  }
+
+  .footer li a {
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 14px 26px;
+      text-decoration: none;
+  }
+
+  .footer li a:hover {
+      background-color: #111;
+  }
+
+
+  .header {
+    height: 9%;
+    width: 100%;
+    background-color: #333;
+    position:absolute;
+    margin-top: 0%;
+    margin-bottom: 90%;
+    margin-left:0%;
+    margin-right:0%;
+    padding:0;
+  }
+
+  .footer {
+    height: 9%;
+    width: 100%;
+    background-color: #333;
+    position:absolute;
+    margin-top: 90%;
+    margin-bottom: 0%;  
+    margin-left:0%;
+    margin-right:0%;
+  }
