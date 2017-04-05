@@ -1,0 +1,149 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin:0px;
+}
+
+title {
+  font-family:"Arial";
+}
+
+h1 {
+  font-family:"Times";
+}
+
+
+.img-container {
+  height: 100%;
+  background: url("background2.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.img-container img {
+  max-height: 70%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+.backgroundImage {
+  height:auto;
+  min-height:80%;
+  max-height:90%;
+  width:100%;
+  padding-top:10%;
+  padding-bottom:5%;
+  background: url("images/indexPhoto.jpg");
+  background-position: center;
+  background-size: cover;
+  overflow:hidden;
+ 
+}
+
+  .menu ul {
+      list-style-type: none;
+      margin: 1;
+      padding: 1;
+      background-color: #1d2120;
+  }
+
+  .menu li {
+      float: left;
+  }
+
+  .menu li a {
+      display: inline-block;
+      color: white;
+      text-align: center;
+      margin-top:30px;
+      padding-top: 5px;
+      padding-left: 35px;
+      padding-right:5px;
+      padding-bottom: 5px;
+      text-decoration: none;
+      overflow:hidden;
+  }
+
+  .menu li a:hover {
+      background-color: #111;
+  }
+
+  .menu {
+      position:absolute;
+      margin-top:2%;
+      width:100%;
+      font-family:"Verdana";
+      padding-left:5%;
+  }
+
+  .header {
+    height: 10%;
+    width: 100%;
+    background-color: #1d2120;
+    position:absolute;
+    margin-top: 0%;
+    margin-bottom: 90%;
+    margin-left:0%;
+    margin-right:0%;
+    padding:0;
+  }
+
+  .footer ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #1d2120;
+  }
+
+  .footer li {
+      float: left;
+  }
+
+  .footer li a {
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+
+  .footer li a:hover {
+      background-color: #111;
+  }
+
+  .footer {
+    height: 5%;
+    width: 100%;
+    background-color: #1d2120;
+    position:absolute;
+    right:0;
+    left:0;
+    bottom:0;
+    overflow:hidden;
+  }
+
+  .content {
+    padding-top: 12%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 8%;
+  }
+
+  .content p {
+    position:relative;
+    top-margin:10%;
+  }
+
+  .content li {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left:15px;
+  }
+
+  .wrapper {
+    height:100%;
+  }
