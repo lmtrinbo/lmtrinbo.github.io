@@ -136,6 +136,12 @@ h1 {
   }
 
   .content p {
-    position:absolute;
+    position:relative;
     top-margin:10%;
+  }
+
+  .content li {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left:15px;
   }
