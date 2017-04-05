@@ -30,19 +30,19 @@ h1 {
 
 
 .backgroundImage {
-  height: 90%;
+  height:auto;
+  min-height:69%;
+  max-height:90%;
+  width:100%;
   padding-top:10%;
+  padding-bottom:5%;
   background: url("images/indexPhoto.jpg");
   background-position: center;
   background-size: cover;
+  overflow:hidden;
  
 }
-.backgroundImage img {
-  max-height: 70%;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-}
+
   
   .menu ul {
       list-style-type: none;
