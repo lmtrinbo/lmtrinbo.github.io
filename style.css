@@ -16,7 +16,7 @@ h1 {
 
 body.index {
   background: url("images/indexPhoto.jpg");
-  background-position: cover;
+  background-size: cover;
   background-position: center;
 }
 
