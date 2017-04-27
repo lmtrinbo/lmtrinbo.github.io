@@ -12,6 +12,7 @@ title {
 
 h1 {
   font-family:"Times";
+  font-size: 30px;
 }
 
 body.index {
@@ -180,5 +181,4 @@ body.index {
     padding-left: 35%;
     padding-right: 35%;
     position: relative;
-    marin:0;
   }
