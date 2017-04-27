@@ -1,3 +1,5 @@
+@import "reset.css";
+
 html, body {
   height: 100%;
   width: 100%;
@@ -12,6 +14,11 @@ h1 {
   font-family:"Times";
 }
 
+body.index {
+  background: url("images/indexPhoto.jpg");
+  background-size: cover;
+  background-position: center;
+}
 
 .img-container {
   height: 100%;
@@ -70,20 +77,16 @@ h1 {
   }
 
   .menu {
-      position:absolute;
-      margin-top:3%;
       width:100%;
       font-family:"Verdana";
   }
 
 
   .header {
-    height: 10%;
+    line-height: 60px;
     width: 100%;
     background-color: #1d2120;
-    position:absolute;
     margin-top: 0%;
-    margin-bottom: 90%;
     margin-left:0%;
     margin-right:0%;
     padding:0;
